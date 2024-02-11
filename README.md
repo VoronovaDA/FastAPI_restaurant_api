@@ -36,7 +36,7 @@ target_metadata = Base.metadata
 ```
 - Перезапишите sqlalchemy.url на url вашей БД
 ```
-config.set_main_option("sqlalchemy.url", DATABASE_URL)
+config.set_main_option("sqlalchemy.url", conn_url)
 ```
 ### Создайте миграции
 ```
